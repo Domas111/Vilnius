@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AJAX</title>
+    <meta name="description" content="Labas, tai yra Dominykas Podgaiskis" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll"><i class="ion-ios-analytics-outline"></i> <b> <font color="red">VILNIUS</font></b></a>
+            </div>
+            <div class="navbar-collapse collapse" id="bs-navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#one">Įžanga</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#two">Svarbu</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#three">Galerija</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#four">Naujienos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#last">Kontaktai</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">Apie miestą</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="first">
+        <div class="header-content">
+            <div class="inner">
+			<img src="logo.png" alt="Trulli" width="400" height="340" class="logo">
+               
+				
+                <h1>Lietuvos Respublikos Sostinė</h1>
+                <hr>
+              &nbsp; <a href="#one" class="btn btn-primary btn-xl page-scroll">Pradėkime</a>
+            </div>
+        </div>
+    </header>
+    <section class="bg-primary" id="one">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2 text-center">
+                  
+                    <br>
+                    <div class="text-faded">
+						Sveiki skaitytojai!
+					</div>
+					<div class="text-faded">
+					Maždaug X tūkstm. pr. Kr. besitraukiantys ledynai Vilnelės senvagę išgraužė į dabartinės Naujosios Vilnios pusę ir dešinėje Vilnelės pusėje, aukštesnėse, sausesnėse vietose ilgainiui pradėjo kurtis žmonės. Pasak istorikės dr. Jolantos Karpavičienės, pirmi gynybiniai statiniai, kuriuose slėptasi grėsmės akivaizdoje, įrengti dabartinio Vilniaus Kalnų parko teritorijoje. 					
+					XIII a. ten jau stovėjo pilis (istoriniuose šaltiniuose ji vadinama Kreivąja pilimi, todėl apie ją susiklosčiusi gyvenvietė kai kada pavadinama Kreivuoju arba Aukštutiniu miestu). Galima atsargiai tvirtinti, kad pirmi statiniai ant dabartinio Gedimino (Pilies) kalno pradėti ręsti I ir II tūkstm. sandūroje. 
+					Europos viduramžių miestai formavosi pagal įvairius modelius. Tarkim, XI–XII a. jie kūrėsi prie patogesnių gamtinių prekybos kelių, neretai – dar romėnų sukurtos infrastruktūros ar jos likučių vietose. Rytų ir Vidurio Europoje kolonistai iš Vakarų miestus dažnai įkurdavo tuščioje vietoje (pavyzdžiui, Torunę ar Rygą). 
+					</div>
+					<a href="#three" class="btn btn-default btn-xl page-scroll wow fadeIn">Galerija</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="two" class="small-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="margin-top-0 text-primary">Pasakojamajai istorijai visada trūksta tikslumo, </h1>
+					<h2 class="margin-top-0 text-primary">bet ji yra portretas, o statistinė istorija visada tėra mechaninis antspaudas.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <section id="three" class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="six.jpg">
+                        <img src="six.jpg" class="img-responsive" alt="Image 1">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="penki.jpg">
+                        <img src="penki.jpg" class="img-responsive" alt="Image 2">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="keturi.jpg">
+                        <img src="keturi.jpg" class="img-responsive" alt="Image 3">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="tris.jpg">
+                        <img src="tris.jpg" class="img-responsive" alt="Image 4">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="two.jpg">
+                        <img src="two.jpg" class="img-responsive" alt="Image 5">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="one.jpg">
+                        <img src="one.jpg" class="img-responsive" alt="Image 6">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid" id="four">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+                <h2 class="text-center text-primary">RENGINIAI</h2>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>Kovo 23, 2019 @ 21:00 - 23:00</h3>
+                    <div class="media-body media-middle">
+                        <p>Repo muzikos pasaulio sensacijos Lil Xan koncertas Lietuvoje. LOFTAS, menų fabrikas, Švitrigailos g. 29, Vilnius</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-lg ion-ios-bolt-outline"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeIn">
+                    <h3>Kovo 24, 2019 @ 18:00</h3>
+                    <div class="media-left">
+                        <i class="icon-lg ion-ios-cloud-download-outline"></i>
+                    </div>
+                    <div class="media-body media-middle">
+                        <p>Koncertas TĖVYNEI grįžta! Po trijų metų pertraukos žymios Lietuvos sunkiosios muzikos grupės vėl susiburs po TĖVYNEI renginio vėliava paminėti Lietuvos Nepriklausomybės atkūrimo dienos.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>Kovo 25, 2019 @ 20:00</h3>
+                    <div class="media-body media-middle">
+                        <p>Kristijonas Ribaitis (indie/elektronika/dainuojamoji poezija).Gitara|loopstation’as|sintezatorius.Paviljonas, Pylimo g. 21B, Vilnius</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-lg ion-ios-snowy"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeIn">
+                    <h3>Kovo 25, 2019 @ 18:00  </h3>
+                    <div class="media-left">
+                        <i class="icon-lg ion-ios-heart-outline"></i>
+                    </div>
+                    <div class="media-body media-middle">
+                        <p>Dviem „Auksiniais scenos kryžiais“ apdovanotas bei beveik visame pasaulyje rodytas Oskaro Koršunovo spektaklis apie didelę Romeo ir Džuljetos meilę kovo 7 ir 8 dienomis bus rodomas Klaipėdos žvejų rūmuose! Maloniai kviečiame!</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="media wow fadeInRight">
+                    <h3>Kovo 27, 2019 @ 12:00 </h3>
+                    <div class="media-body media-middle">
+                        <p>NEMOKAMAS renginys IT naujokams!
+
+Kiekvienam keičiančiam karjeros kryptį kyla daug neaiškumų: ar mano žinių pakanka pradėti karjerą IT srityje? Kaip darbdavys žiūrės į tai, kad neturiu jokios patirties? Kokios savybės svarbios IT rinkoje?</p>
+                    </div>
+                    <div class="media-right">
+                        <i class="icon-lg ion-ios-flask-outline"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="last">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="margin-top-0 wow fadeIn">Susisiekite su miesto savivaldybę</h2>
+                    <hr class="primary">
+                    <p>Pateikite savo idėjas ar klausymus ir mes su malonumu su Jumis susisieksime!</p>
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <form class="contact-form row">
+                        <div class="col-md-4">
+                            <label></label>
+                            <input type="text" class="form-control" placeholder="Vardas">
+                        </div>
+                        <div class="col-md-4">
+                            <label></label>
+                            <input type="text" class="form-control" placeholder="E-paštas">
+                        </div>
+                        <div class="col-md-4">
+                            <label></label>
+                            <input type="text" class="form-control" placeholder="Telefono Nr.">
+                        </div>
+                        <div class="col-md-12">
+                            <label></label>
+                            <textarea class="form-control" rows="9" placeholder="Jūsų žinutė mums.."></textarea>
+                        </div>
+                        <div class="col-md-4 col-md-offset-4">
+                            <label></label>
+                            <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Siųsti <i class="ion-android-arrow-forward"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<img src="http://placehold.it/1200x700/222?text=..." id="galleryImage" class="img-responsive" />
+        		<p>
+        		    <br/>
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Uždaryti <i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<h2 class="text-center">VILNIUS</h2>
+        		<h5 class="text-center">
+        		   Trumpa istorija apie miestą
+        		</h5>
+        		<p class="text-justify">
+        		   Nėra tiksliai nustatyta kada įsikūrė Vilniaus gyvenvietė – apie miesto įkūrimą byloja legenda. Vilnius pirmą kartą paminėtas rašytiniuose šaltiniuose kunigaikščio Gedimino 1323 m. sausio 25 d. rašytame laiške Vokietijos miestams, kuriame jis kvietė vokiečius ir žydus keltis į Vilnių (kai kurie šaltiniai teigia, kad LDK sostine Vilnius tapęs dar 1322 metais). 1387 m. kovo 22 d. (ar gegužės 6 d.) Merkinėje Jogaila Vilniui suteikė Magdeburgo teises. 1397 metais įkurta pirmoji mokykla, buvusi prie katedros ir turėjusi privilegijų. XIV a. pabaigoje minimas Rusų kvartalas, labai aktyviai veikė vokiečių pirkliai. 1495 m. įkurtas pirmasis LDK auksakalių cechas.
+        		</p>
+        		
+        		<br/>
+        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> Atgal </button>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<h2 class="text-center">Nice Job!</h2>
+        		<p class="text-center">You clicked the button, but it doesn't actually go anywhere because this is only a demo.</p>
+        		<p class="text-center"><a href="http://www.bootstrapzero.com">Learn more at BootstrapZero</a></p>
+        		<br/>
+        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">OK <i class="ion-android-close"></i></button>
+        	</div>
+        </div>
+        </div>
+    </div>
+    <!--scripts loaded here from cdn for performance -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="./functions.js"></script>
+    <script async type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-46791600-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
